@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background-image:url('log.jpg');
+    background-size:100%;
+}
+.hii{
+    position: relative;
+    width:370px;
+    height: 450px;
+    left:460px;
+    top:80px;
+    background: transparent;
+    border-radius:50px 50px;
+}
+.hii h1{
+    top:auto;
+    color: aquamarine;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.hii p{
+    color: aquamarine;
+    font-size: 20px;
+    margin: 3px;
+}
+.hii input{
+    font-size: 16px;
+    padding: 10px 7px;
+    width:100%;
+    border:0%;
+    border-radius: 5px;
+    outline:none;
+}
+.hii button{
+    background-color:aqua;
+    font-size: 14px;
+    font-weight: bold;
+    margin:17px 0;
+    padding:12px 10px;
+    width:50%;
+    border: 0;
+    border-radius: 5px;
+}
+.hii button:hover{
+    color:darkblue;
+    cursor: pointer;
+}
